@@ -1,0 +1,102 @@
+*{
+    box-sizing: content-box;
+}
+
+.body{
+    margin: 0;
+    background-color:rgb(31, 31, 31) ;
+    font-family:'Roboto', sans-serif;
+}
+
+/* WRAPPER */
+
+.wrapper{
+    width: 34.375rem;
+    height: 50rem;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    background-color: white;
+}
+
+/* TOP */
+
+.top{
+    display: flex;
+    width: 100%;
+    height: 4.625rem;
+}
+.top img{
+    width: 30px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.logo, .titulo-usuario, .opciones{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.logo{
+    margin-left: 20px;
+}
+.titulo-usuario{
+    width: 20%;
+    margin-left: 5px;
+}
+.opciones{
+    width: 80%;
+    text-align: right;
+}
+.titulo-usuario h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: medium;
+    
+}
+.titulo-usuario p{
+    margin-top: 0px;
+}
+
+
+/* MID */
+
+.mid{
+    width: 100%;
+    height: 32.875rem;
+}
+.mid img{
+    width: 100%;
+    height: 32.875rem;
+}
+
+/* ALOW */
+
+.alow{
+    width: 100%;
+    height: 12.5rem;    
+}
+.sup{
+    display: flex;
+}
+.alow img{
+    width: 30px;
+}
+.left, .right{
+    width: 50%;
+    height: 30px;
+    margin-top: 10px;
+}
+.right{
+    text-align: right;
+    margin-right: 10px;
+}
+.left{
+    margin-left: 7px;
+}
+.left img{
+    margin-left: 3px;
+}
+.alow p{
+    margin-left: 7px;
+    margin-right: 10px;
+    font-size: medium;
+}
